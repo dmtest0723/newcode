@@ -15,7 +15,7 @@ describe('QUestion 2', () => {
     //cy.get("body > section > header > div > div > div.u-flex.u-flex-align-center.u-flex-justify-end > div.c-header__search > form").type("international payments").click({ force: true }) 
     
   })
-  it.only("Validates Moneycorp Links",() =>{
+  it("Validates Moneycorp Links",() =>{
 
     //URL for Validating Links
     cy.visit('https://www.moneycorp.com/en-us/search/?q=international+payments')
