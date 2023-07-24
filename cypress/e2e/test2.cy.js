@@ -1,7 +1,8 @@
 
 describe('QUestion 2', () => {
   it('Validate MoneyCorp', () => {
-    cy.visit('https://www.moneycorp.com/en-gb/')
+    //Accessing Base URL
+    cy.visit('/')
     //Handling Alerts
     cy.get("#onetrust-accept-btn-handler").click();
     //Selecting ENG-US
